@@ -1,0 +1,44 @@
+{
+  "name": "keepnote",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@next/third-parties": "^15.3.5",
+    "@prisma/client": "^6.10.1",
+    "@react-email/components": "^0.2.0",
+    "@react-pdf/renderer": "^4.3.0",
+    "bcrypt": "^6.0.0",
+    "chart.js": "^4.5.0",
+    "cloudinary": "^2.7.0",
+    "cookie": "^1.0.2",
+    "jose": "^6.0.11",
+    "jsonwebtoken": "^9.0.2",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-email": "^4.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-pdf": "^10.0.1",
+    "resend": "^4.6.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@faker-js/faker": "^9.9.0",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "prettier": "^3.6.2",
+    "prisma": "^6.10.1",
+    "tailwindcss": "^4"
+  }
+}
